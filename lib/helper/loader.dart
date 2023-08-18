@@ -9,7 +9,6 @@ addAndGetRoadSprite(TiledComponent gameMap,BoardGame game) async{
   double mapOriginalHeight =  360;
   for(var goodBox in bakedGoodGroup!.objects){
     if(goodBox.name.isNotEmpty) {
-      print(goodBox.name);
       PositionComponent sprite =  PositionComponent()
         ..position = Vector2(goodBox.x*gameMap.width/mapOriginalWidth, goodBox.y*(gameMap.height/mapOriginalHeight))
         ..width = goodBox.width*gameMap.width/mapOriginalWidth

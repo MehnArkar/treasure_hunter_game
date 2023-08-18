@@ -1,4 +1,5 @@
 import 'package:board_game/board_game.dart';
+import 'package:board_game/widget/game_overlay.dart';
 import 'package:flame/flame.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,12 @@ class MyGameApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GameWidget(game: BoardGame())
+      home: GameWidget(
+          game: BoardGame(),
+          overlayBuilderMap: {
+            'game_overlay':(context,BoardGame game)=>GameOverlay(game: game)
+          }
+      )
     );
   }
 }
