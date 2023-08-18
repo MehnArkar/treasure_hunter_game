@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="18" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="83">
+ <tileset firstgid="1" name="Game Default Screen" tilewidth="20" tileheight="20" tilecount="720" columns="40">
+ </tileset>
+ <objectgroup id="4" name="road">
+  <object id="41" name="start" x="106.271" y="208.181" width="69.3362" height="81.161"/>
+  <object id="42" name="land" x="106.423" y="155.872" width="69.3362" height="50.5241"/>
+  <object id="44" name="land" x="105.886" y="102.661" width="70.9487" height="52.1365"/>
+  <object id="45" name="anchor" x="105.886" y="60.7364" width="70.4112" height="40.8492"/>
+  <object id="46" name="compass" x="139.21" y="24.187" width="51.599" height="35.4743"/>
+  <object id="47" name="shark" x="193.496" y="24.7245" width="48.9116" height="34.9368"/>
+  <object id="48" name="land" x="207.471" y="60.7364" width="70.9487" height="40.3117"/>
+  <object id="52" name="anchor" x="206.934" y="102.123" width="70.9487" height="51.599"/>
+  <object id="53" name="anchor" x="208.009" y="155.872" width="69.8737" height="49.9866"/>
+  <object id="54" name="land" x="207.471" y="209.084" width="69.8737" height="52.674"/>
+  <object id="55" name="land" x="207.471" y="264.445" width="69.8737" height="38.1618"/>
+  <object id="56" name="compass" x="239.183" y="303.682" width="53.2115" height="34.3994"/>
+  <object id="57" name="anchor" x="294.007" y="304.219" width="51.0615" height="33.8619"/>
+  <object id="58" name="anchor" x="308.519" y="263.908" width="69.3362" height="39.7743"/>
+  <object id="59" name="land" x="307.982" y="210.696" width="69.8737" height="51.599"/>
+  <object id="60" name="land" x="309.057" y="156.41" width="69.3362" height="53.2115"/>
+  <object id="61" name="anchor" x="309.057" y="102.661" width="69.3362" height="52.1365"/>
+  <object id="62" name="anchor" x="307.982" y="60.7364" width="69.8737" height="40.3117"/>
+  <object id="63" name="compass" x="337.006" y="24.187" width="56.4364" height="35.4743"/>
+  <object id="64" name="compass" x="395.593" y="24.7245" width="52.674" height="35.4743"/>
+  <object id="65" name="anchor" x="409.567" y="61.8113" width="68.7987" height="38.1618"/>
+  <object id="66" name="land" x="409.567" y="102.123" width="69.3362" height="52.1365"/>
+  <object id="67" name="land" x="410.105" y="155.335" width="68.7987" height="53.749"/>
+  <object id="68" name="land" x="409.567" y="211.771" width="68.7987" height="50.5241"/>
+  <object id="69" name="anchor" x="409.567" y="264.445" width="68.7987" height="38.1618"/>
+  <object id="70" name="compass" x="442.354" y="303.144" width="50.5241" height="34.3994"/>
+  <object id="71" name="land" x="494.491" y="303.682" width="51.0615" height="33.8619"/>
+  <object id="72" name="compass" x="510.078" y="263.908" width="69.3362" height="39.2368"/>
+  <object id="73" name="anchor" x="510.078" y="210.696" width="69.3362" height="51.599"/>
+  <object id="74" name="anchor" x="510.078" y="155.872" width="69.3362" height="52.674"/>
+  <object id="75" name="land" x="509.54" y="102.661" width="69.8737" height="52.1365"/>
+  <object id="76" name="compass" x="509.003" y="59.6614" width="70.9487" height="41.9242"/>
+  <object id="77" name="shark" x="542.865" y="25.262" width="52.1365" height="33.3244"/>
+  <object id="78" name="shark" x="597.151" y="25.262" width="49.9866" height="33.8619"/>
+  <object id="79" name="compass" x="611.664" y="59.6614" width="68.7987" height="41.3867"/>
+  <object id="80" name="land" x="611.664" y="103.198" width="68.2612" height="50.5241"/>
+  <object id="81" name="anchor" x="611.664" y="156.41" width="68.2612" height="53.2115"/>
+  <object id="82" name="finish" x="611.664" y="211.771" width="68.7987" height="122.01"/>
+ </objectgroup>
+</map>
